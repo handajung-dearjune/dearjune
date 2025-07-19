@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dear,JUNE</title>
+	<style>
+    .hover-container {
+      display: inline-block;
+      position: relative;
+      margin: 0px;
+    }
+
+    .hover-img {
+      width: 25px; 
+      height: auto;
+      display: block;
+    }
+
+    .hover-container img.hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+	  pointer-events: none;
+      transition: opacity 0.1s ease-in-out;
+    }
+
+    .hover-container:hover img.hover {
+      opacity: 1;
+    }
+
+    .hover-container:hover img.default {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+<table width="500" height="510" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="120" height="510">&nbsp;</td>
+      <td width="380" height="510"><img src="web_front-07.jpg" width="380" height="550" alt=""/></td>
+    </tr>
+  </tbody>
+</table>
+
+<table width="500" height="120" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table width="500" height="25" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="135" height="25" border="0" cellspacing="0" cellpadding="0">&nbsp;</td>
+      <td width="25" height="25" border="0" cellspacing="0" cellpadding="0">
+		  <a href="mailto:handajung@dearjune.kr">
+		<div class="hover-container">
+          <img src="web_front-03.jpg" width="25" height="25" class="hover-img default">
+          <img src="web_front-05.jpg" width="25" height="25" class="hover-img hover">
+        </div>
+		  </a>
+		</td>
+      <td width="25" height="25" border="0" cellspacing="0" cellpadding="0">&nbsp;</td>
+      <td width="315" height="25" border="0" cellspacing="0" cellpadding="0">
+		  <a href="https://www.instagram.com/dearjune_official/" target="_blank">
+		<div class="hover-container">
+          <img src="web_front-04.jpg" width="25" height="25" class="hover-img default">
+          <img src="web_front-06.jpg" width="25" height="25" class="hover-img hover">
+        </div>
+		  </a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
